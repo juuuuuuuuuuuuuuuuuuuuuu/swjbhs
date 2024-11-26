@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    border: 1px solid black;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.container{
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+}
+.header{
+    width: 1200px;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+}
+.main-menu{
+    display: flex;
+    justify-content: center;
+}
+.main-menu>li{
+    width: 150px;
+    height: 30px;
+
+    text-align: center;
+}
+.main-menu>li:hover{
+    background-color: pink;
+}
+.sub-menu{
+    width: 150px;
+    height: 30px;
+    
+    display: none;
+}
+.sub-menu li:hover{
+    background-color: skyblue;
+}
+
+.slide{
+    width: 1200px;
+    height: 300px;
+}
+
+.contants{
+    width: 1200px;
+    height: 200px;
+
+    display: flex;
+
+}
+.notice{
+    width: 400px;
+    height: 200px;
+}
+.notice button{
+    width: 80px;
+    height: 30px;
+    background-color: pink;
+}
+.news{
+    width: 400px;
+    height: 170px;
+}
+.news li:hover{
+    color: indianred;
+}
+.gallery{
+    width: 400px;
+    height: 170px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.gallery img{
+    width: 130px;
+    height: 130px;
+}
+.banner{
+    width: 400px;
+    height: 200px;
+}
+.shortcut{
+    width: 400px;
+    height: 200px;
+}
+.footer{
+    width: 1200px;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.logo2{
+    width: 200px;
+    height: 100px;
+}
+.copy{
+    width: 850px;
+    height: 100px;
+}
+.sns{
+    width: 150px;
+    height: 100px;
+}
+
+.modal{
+    width: 200px;
+    height: 200px;
+    background-color: palevioletred;
+
+    position: absolute;
+    left: 45%;
+    top: 45%;
+
+    display: none;
+}
+.modal2{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+
+    position: absolute;
+    left: 45%;
+    top: 45%;
+}
